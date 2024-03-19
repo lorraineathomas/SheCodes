@@ -1,0 +1,12 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+.special {
+    color: red;
+    font-size: 46px;
+}

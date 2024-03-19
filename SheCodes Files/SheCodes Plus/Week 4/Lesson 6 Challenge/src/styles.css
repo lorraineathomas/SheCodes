@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header-logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+ }
