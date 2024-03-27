@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>SheCodes Plus</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+          <form id="search-form">
+            <input 
+            class="search-input" 
+            id="search-input"
+            placeholder="Enter a city..." 
+            type="text" 
+            />
+           <input id="search-button" type="submit" value="Search">
+          </form>
+        </header>
+        <main>
+          <div class="current-weather">
+            <div>
+            <h1 id="current-city">Jamaica, NY</h1>
+            <p class="current-details"><span id="day-time">Saturday 15:32</span>, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temperature-icon">☀️</span> 
+            <span class="current-temperature-value">50</span>
+            <span class="current-temperature-unit">&deg;F</span></div>
+          </div>
+        </main>
+          <footer>
+            <small>
+              This project was coded by
+              <a href="https://github.com/lorraineathomas" target="_blank"
+                >Lorraine Thomas</a
+              >
+              and is on <a href="https://github.com/lorraineathomas/SheCodes/tree/main/SheCodes%20Plus/Week%206" target="_blank">on Github</a> and <a href="https://app.netlify.com/teams/lorrainethomas-1/sites" target="_blank">hosted by Netlify</a></small
+            >
+          </footer>
+    <script src="src/index.js"></script>
+<script src="src/index.js"></script>
+</body>
+</html>
