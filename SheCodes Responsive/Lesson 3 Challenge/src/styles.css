@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+#about-section:hover {
+    color: green;
+}
+
+#about-section:visited {
+    color: darkred;
+}
+
+#contact-section:hover {
+    color: green;
+}
+
+#contact-section:visited {
+    color: darkred;
+}
