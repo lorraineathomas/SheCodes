@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #8221d1;
+    --box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    --border: 1px solid #21d1d1;
+}
+
+h2 {
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+
+/*By email and By phone are h3 elements*/
+h3 {
+    border: 1px solid --border;
+}
+
+p {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: var(--box-shadow);
+}
