@@ -1,8 +1,8 @@
 :root {
-    --colorOne: #f79c97;
-    --colorTwo: #00535c;
-    --colorThree: #5c2b40;
-    --linear-gradient: linear-gradient(15px, 15px, 10px, grey);
+    --colorOne: #F79C97;
+    --colorTwo: #00535C;
+    --colorThree: #5C2B40;
+    --displayChoice: block;
 }
 
 body {
@@ -20,7 +20,7 @@ h3 {
 }
 
 img {
-    display: block;
+    display: var(--displayChoice);
     margin: 0 auto;
     width: 200px;
 }
@@ -29,17 +29,11 @@ h1 {
     text-align: center;
 }
 
-.inner-container {
+.container {
     background: #f7e4ec;
     border-radius: 20px;
-    box-shadow: var(--linear-gradient);
-    margin: 80px;
+    display: var(--displayChoice);
+    margin: 80px auto;
     padding: 20px;
     width: 600px;
-}
-
-.outer-container {
-    background: black;
-    border-radius: 10px;
-    padding: 5px;
 }
