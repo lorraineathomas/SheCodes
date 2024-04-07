@@ -1,0 +1,29 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.firstTask {
+    display: flex;
+}
+
+.color-challenge2 {
+    
+}
+
+.color-challenge3 {
+    
+}
+
+.color-challenge4 {
+    
+}
