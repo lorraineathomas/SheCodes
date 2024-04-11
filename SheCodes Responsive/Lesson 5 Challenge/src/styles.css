@@ -33,29 +33,20 @@ body {
   }
   
   .challenge-3 {
-    border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
+  }
+  
+  .challenge-4 {
+    display: flex;
     padding: 10px;
+    justify-content: center;
   }
   
-  .color-one {
-    border: 1px solid blue;
-    padding: 5px;
+  .color-blue {
+    margin-right: 10px;
   }
   
-  .color-two {
-    border: 1px solid red;
-    padding: 5px;
+  .color-red {
+    margin-right: 10px;
   }
-  
-  .color-three {
-    border: 1px solid green;
-    padding: 5px;
-  }
-  
-  .color-four {
-    border: 1px solid yellow;
-    padding: 5px;
-  }
-  
