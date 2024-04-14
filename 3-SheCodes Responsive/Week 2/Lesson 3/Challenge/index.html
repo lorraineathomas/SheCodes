@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCodes Responsive</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+<style>
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .no-underline {
+        text-decoration: none;
+    }
+
+    .link {
+        color: black;
+    }
+
+    .link:hover {
+        text-decoration: none;
+    }
+
+    .shadow {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .shadow-xl {    
+        box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5) ;
+    }
+
+</style>
+</head>
+<body>
+    <img src="image/logo.png" alt="SheCodes logo" />
+    <h1>Utility CSS Classes</h1>
+    <h3>Challenge 1</h3>
+    <div>Import Bootstrap</div>
+    <br />
+
+    <h3>Challenge 2</h3>
+    <div>Add a border around each color without using CSS. The border color should match the color name (i.e. blue border around the word Blue)</div>
+    <div class="border border-primary">Blue</div>
+    <div class="border border-danger">Red</div>
+    <div class="border border-success">Green</div>
+    <br />
+
+    <h3>Challenge 3</h3>
+    <div>Make this black and not underlined using CSS classes</div>
+    <a class="no-underline link" href="https://www.shecodes.io/learn/workshops">SheCodes Workshops</a>
+    <br />
+    <br />
+
+    <h3>Challenge 4</h3>
+    <div>Using CSS classes, add a yellow background to this button, with a large shadow and full width</div>
+    <a class="btn btn-warning w-100 shadow" href="https://getbootstrap.com/" target="_blank">Get started</a>
+    <br />
+    <br />
+    <h3>Challenge 5</h3>
+    <div>Create a custom utility class called shadow-xl which adds a lot of shadow and apply it to this button. Add a green gradient background to this button with yellow uppercased text.</div>
+    <a class="shadow-xl btn btn-success bg-gradient-success text-warning text-uppercase"href="https://getbootstrap.com/" target="_blank">Get started</a>
+
+</body>
+</html>
