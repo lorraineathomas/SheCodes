@@ -14,11 +14,11 @@ function refreshWeather(response){
 
     let windElement = document.querySelector("#wind-speed");
     let speed = Math.round(response.data.wind.speed * 1.609344);
-    windElement.innerHTML = speed;g
+    windElement.innerHTML = speed;
 
     let dayTime = new Date(response.data.time * 1000);
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    timeElement = document.querySelector("#time");
+    timeElement = document.querySelector(".time");
     let minutes = dayTime.getMinutes();
     if (minutes < 10) {
         minutes = `0${dayTime.getMinutes()}`;
