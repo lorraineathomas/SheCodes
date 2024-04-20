@@ -4,8 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Lorraine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        h1 {
+            font-size: 96px;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        main {
+            margin-top: 70px;
+        }
+
+        .bg-color {
+            background-color: rgba(231, 221, 202) !important;
+        }
+
+        .mail {
+            color: rgb(125, 92, 69);
+            font-size: 20px;
+        }
+
+        .pancakes-container {
+            background-color: #EBB67E;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-color">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><span class="navbar-text">Lorraine Thomas</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Home</a>
+                          </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html#contact" target="_blank">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="about.html" target="_blank">About</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <div class="row">
+            <h1 class="text-center" id="headline">About Me</h1>
+            <h3 class="text-center">Front-End Developer from Queens, New York</h3>
+            <br />
+            <br />
+            <br />
+            <p class="text-center p-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat modi iure veniam minus, doloribus, sapiente et ullam, obcaecati a fugit laboriosam dolores! Eveniet consectetur eos impedit nisi expedita blanditiis iusto?</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/Weather-App.png" alt="Screenshot of weather app" class="img-fluid"/>
+                </div>
+                <div class="col-4">
+                    <img src="images/Hair-images.png" alt="left back and right side of goddess braids" class="img-fluid" />
+                </div>
+                <div class="col-4 pancakes-container">
+                    <img src="images/Pancakes.jpeg" alt="Stack of pancakes with strawberries, blueberries, and syrup on top" class="img-fluid d-block mx-auto">
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="row">
+                <h2 class="text-center">👩🏾‍🍳 Contact Me</h2>
+                <a href="mailto:lorraine@shecodes.io" class="text-center mail" id="contact">Lorraine@shecodes.io</a>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
