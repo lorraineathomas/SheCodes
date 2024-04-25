@@ -1,4 +1,4 @@
-function refreshWeather(response){
+/*function refreshWeather(response){
     let temperatureElement = document.querySelector("#temperature");
     let temperatureValue = Math.round(convertTemperature(response.data.temperature.current));
     let cityElement = document.querySelector("#city");
@@ -58,8 +58,7 @@ function displayForecast() {
     days.forEach(function (day) {
         forecastHtml = 
             forecastHtml + 
-        `
-            <div class="weather-forecast-day">
+            `<div class="weather-forecast-day">
                 <div class="weather-forecast-date">${day}</div>
                 <div class="weather-forecast-icon">🌤️</div>
                 <div class="weather-forecast-temperature">
@@ -73,4 +72,4 @@ function displayForecast() {
 }
 
 let searchFormElement = document.querySelector("#search-form");
-searchFormElement.addEventListener("submit", handleSearchSubmit);
+searchFormElement.addEventListener("submit", handleSearchSubmit);*/
