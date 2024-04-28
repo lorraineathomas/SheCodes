@@ -11,6 +11,10 @@
             margin: 10px;
         }
 
+        .heading {
+            font-weight: bolder;
+        }
+
         .top-image {
             display: block;
             margin: 0 auto;
@@ -22,24 +26,11 @@
             color: blue;
             text-align: center;
             }
-        }
-
-        @media (min-width: 768px) {
-            .mobile {
-            display: none;
+            .challenge-image {
+                max-width: 150px;
+                display: none;
             }
         }
-
-        @media (max-width: 576px) {
-            .desktop {
-            display: none;
-            }
-        }
-        
-        .challenge-image {
-            max-width: 150px;
-        }
-
         
     </style>
 </head>
@@ -53,18 +44,18 @@
 
     <h3>Challenge 2</h3>
     <p>Hide this image on mobile devices</p>
-    <img src="images/logo.png" alt="SheCodes logo" class="challenge-image d-sm-none d-lg-block" />
+    <img src="images/logo.png" alt="SheCodes logo" class="challenge-image" width="150"/>
 
     <h3>Challenge 3</h3>
     <p>Import Bootstrap</p>
 
     <h3>Challenge 4</h3>
     <p>Using media queries css utility classes, show the following content only on small devices</p>
-    <p class="mobile d-md-none d-lg-none">This message is for mobile users only</p>
+    <p class="mobile d-block d-md-none">This message is for mobile users only</p>
 
     <h3>Challenge 5</h3>
     <p>Using media queries css utlity classes, show the following content only on medium and larger devices</p>
-    <p class="desktop">This is a message for desktop users only</p>
+    <p class="d-none d-md-block">This is a message for desktop users only</p>
     </div>
 </body>
 </html>
