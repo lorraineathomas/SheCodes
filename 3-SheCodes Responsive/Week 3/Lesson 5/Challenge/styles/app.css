@@ -2,11 +2,11 @@
     background-color: #e8d7a7;
     }
 
-    h1 {
-        text-align: center;
-    }
-
     img {
         display: block;
         margin: 10px auto;
+    }
+
+    .headline {
+        text-align: center;
     }
