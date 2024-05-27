@@ -1,91 +1,78 @@
-a {
-    font-size: 16px !important;
-    padding: 20px 15px !important;
-}
-
-body {
-    margin: 15px 30px;
-}
-
-button {
-    background-color: rgba(231, 221, 202);
-    border: 1px solid rgba(231, 221, 202);
-    border-radius: 10px;
-    color: black;
-    display: block;
-    font-weight: bolder;
-    margin: 10px auto;
-    padding: 10px;
-}
-
-.bg-color {
-    background-color: rgba(231, 221, 202) !important;
-}
-
-.bg-primary, .bg-success {
-    background-color: rgba(231, 221, 202) !important;
-    border: 1px solid rgba(231, 221, 202);
-    color: black !important;
-    font-weight: bolder;
-    margin: 20px;
-}
-
-.caption {
-    font-size: 35px;
-}
-
-.greeting {
-    font-size: 50px;
-}
-
-.hair-photo {
-    border-radius: 10px;
-    display: block;
-    margin: 60px auto;
-    max-width: 75%;
-}
-
-.hair-photo-container {
-    background-color: bisque;
-    border-radius: 10px;
-}
-
-.name {
+:root {
+    --main-color: #6c63ff;
+    --alt-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h1 {
     font-size: 96px;
-}
+  }
+  
+  h1,
+  h2,
+  h3 {
 
-.navbar-text {
-    color: black;
-    font-size: 20px;   
-}
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
 
-.link-buttons {
-    justify-content: center;
-    margin: 20px 15px;
-    text-decoration: none;
-}
-
-.pancake-photo {
-    border-radius: 10px;
+  #back,
+  #mail-link {
+    color: var(--main-color);
     display: block;
-    margin: 82px auto;
-    max-width: 110%;
-}
+    text-align: center;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  .container {
+    margin-top: 40px;
+  }
+  
+  .primary-link {
+    background: var(--main-color);
+    color: var(--alt-color);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    padding: 20px 15px;
+    text-decoration: none;
+  }
+  
+  .secondary-link {
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    padding: 20px 15px;
+    text-decoration: none;
+  }
 
-.pancake-photo-container {
-    background-color: #735205;
-    border-radius: 10px;
-}
+  .about-paragraph {
 
-.row {
-    margin-bottom: 40px;
-}
-
-@media(max-width: 576px){
-    img {
-        width: 100%;
-    }
-    .block {
-        display: flex;
-    }
-}
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  
