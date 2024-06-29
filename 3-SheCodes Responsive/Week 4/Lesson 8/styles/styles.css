@@ -1,3 +1,18 @@
+:root {
+    --back-color: rgb(198, 241, 241);
+    --pageFont: "Playwrite DE Grund", cursive;
+    --text-color: aqua;
+}
+
+body {
+  background-color: var(--back-color);
+  font-family: var(--pageFont);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 30px;
+}
+
 h1, h3, p {
     text-align: center;
 }
@@ -12,17 +27,9 @@ p {
 
 .btn-contact {
     background-color: black;
-    color: aqua;
+    color: var(--text-color);
     display: block !important;
     margin: 30px auto !important;
     padding: 5px;
     width: 20%;
-}
-
-.hero {
-  font-family: "Playwrite DE Grund", cursive;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  margin-top: 30px;
 }
