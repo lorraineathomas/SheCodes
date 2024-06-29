@@ -1,0 +1,19 @@
+h1, h3, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.btn-contact {
+    background-color: aqua;
+    display: block !important;
+    margin: 0 auto !important;
+    padding: 5px;
+    width: 20%;
+}
