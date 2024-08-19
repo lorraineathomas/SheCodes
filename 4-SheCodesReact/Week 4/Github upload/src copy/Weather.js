@@ -18,7 +18,7 @@ export default function Weather() {
 
     function displayWeather(event) {
         event.preventDefault();
-        const key = "AIzaSyC2wWueOzJkgsqNP4CM6bMVcUoJSpege-w";
+        const key = "082d3d02ffdb12f2fd9b259e2ced1d0d-w";
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
         axios.get(url).then(handleResponse);
 
